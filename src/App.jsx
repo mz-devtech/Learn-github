@@ -3,17 +3,22 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>this is my github learning
-      
-    </h1>
+    <Navbar/>
     </>
   )
 }
 
 export default App
+
+
+
+// git checkout dev
+// git pull origin dev
+// git checkout -b feature/component-navbar
